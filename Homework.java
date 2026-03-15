@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Homework { // 类名首字母大写（Java 规范）
-    // 计算 BMI 并输出结果
+public class Homework {
+    
     public static void printBMI(double weight, double height) {
         double bmi = weight / (height * height);
         String result;
